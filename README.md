@@ -4,7 +4,7 @@ This repository is a demonstration of my work with the Decision Discovery and Op
 
 Cvxpylayers is a Python library for constructing differentiable convex optimization problems as layers in Python machine learning platforms such as PyTorch and TensorFlow. The convex optimization layer solves the parameterized optimization problem in the forward pass to produce a solution. In the backwards pass, it can then compute the derivative of the solution with respect to its parameters. More information on cvxpylayers can be found in the repository linked [here](https://locuslab.github.io/2019-10-28-cvxpylayers/).
 
-In this example, I evaluate cvxpylayers' ability to solve the so-called water-filling optimization problem from the field of information theory [(Kalpana and Khan, 2015)](https://www.researchgate.net/publication/278333941_Fast_Computation_of_Generalized_Waterfilling_Problems )
+In this example, I evaluate cvxpylayers's ability to solve the so-called water-filling optimization problem from the field of information theory [(Kalpana and Khan, 2015)](https://www.researchgate.net/publication/278333941_Fast_Computation_of_Generalized_Waterfilling_Problems )
 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=105QxfxfRHohik6Rcz23up7GWdh7L9rGF" alt="water filling problem">
